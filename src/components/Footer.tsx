@@ -5,9 +5,9 @@ const Footer = () => {
     <footer className="bg-[#ada18bdd] text-[#222]">
       <div className="container mx-auto py-10 px-5 grid grid-cols-1 md:grid-cols-4 gap-8">
         <div>
-          <h3 className="text-lg font-semibold mb-4">About Ecoshop</h3>
+          <h3 className="text-lg font-semibold mb-4">About Shop.CO</h3>
           <p className="text-sm">
-            Ecoshop is your one-stop solution for eco-friendly and sustainable
+            Shop.CO is your one-stop solution for eco-friendly and sustainable
             products. We are committed to promoting a greener future.
           </p>
         </div>
@@ -69,7 +69,7 @@ const Footer = () => {
           <ul className="text-sm space-y-2">
             <li>
               Email:{" "}
-              <Link href="mailto:support@ecoshop.com" className="hover:underline">
+              <Link href="mailto:support@shop.co.com" className="hover:underline">
                 support@ecoshop.com
               </Link>
             </li>
@@ -79,12 +79,12 @@ const Footer = () => {
                 +1 234 567 890
               </Link>
             </li>
-            <li>Address: 123 Greenway, Eco City</li>
+            <li>Address: 123 Greenway, shop.co City</li>
           </ul>
         </div>
       </div>
       <div className="bg-[#ada18bddF] text-[#222] text-center py-4 text-sm">
-        <p>&copy; {new Date().getFullYear()} Ecoshop. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Shop.CO All rights reserved.</p>
       </div>
     </footer>
   );
