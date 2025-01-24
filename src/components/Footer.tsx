@@ -70,7 +70,7 @@ const Footer = () => {
             <li>
               Email:{" "}
               <Link href="mailto:support@shop.co.com" className="hover:underline">
-                support@ecoshop.com
+                support@shop.co.com
               </Link>
             </li>
             <li>
