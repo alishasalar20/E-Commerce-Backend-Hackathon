@@ -13,7 +13,7 @@ interface Product {
   price: number;
   description: string;
   discountPercent: number;
-  discountPercentage: any;
+  discountPercentage: number;
   isFeaturedProduct:any;
   new: boolean;
   colors: string[];
