@@ -14,7 +14,7 @@ interface Product {
   description: string;
   discountPercent: number;
   discountPercentage: number;
-  isFeaturedProduct:any;
+  isFeaturedProduct:boolean;
   new: boolean;
   colors: string[];
   sizes: string[];
